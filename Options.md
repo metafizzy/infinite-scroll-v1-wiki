@@ -1,0 +1,1 @@
+TODO: Add list of options along with explanations and examples of implementation
