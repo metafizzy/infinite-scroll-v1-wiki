@@ -1,6 +1,6 @@
 TODO: Add page detailing the creation and usage of custom behaviors
 
-```
+`
 loading: {
 	finished
 	finishedMsg
@@ -38,4 +38,4 @@ pixelsFromNavToBottom
 path
 prefill
 maxPage
-```
+`
