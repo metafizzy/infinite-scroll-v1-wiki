@@ -14,7 +14,7 @@
 ####  isDestroyed
 ####  isDone
 ####  isPaused
-####  currPage
+####  <a id="currPage"></a>currPage
 
 ## Regular Options
 ####  debug
@@ -82,3 +82,8 @@ Default: `false`
 When set to true, Infinite Scroll will continue to load more pages until the window is full enough to trigger the vertical scrollbar. If the window is resized to be large enough to hide the vertical scrollbar, Infinite Scroll will load more content until the window is full again.
 
 ####  maxPage
+`number`
+
+Default: `undefined`
+
+This option is used to limit the number of pages that will be loaded by Infinite Scroll. Pages will continue loading until the page, as indicated by the [current page state variable](#currPage), exceeds the value of `maxPage`.
