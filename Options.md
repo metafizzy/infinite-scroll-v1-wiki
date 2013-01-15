@@ -1,1 +1,35 @@
-TODO: Add list of options along with explanations and examples of implementation
+*  loading
+  *  finished
+  *  finishedMsg
+  *  img
+  *  msg
+  *  msgText
+  *  selector
+  *  speed
+  *  start
+*  state
+  *  isDuringAjax
+  *  isInvalidPage
+  *  isDestroyed
+  *  isDone
+  *  isPaused
+  *  currPage
+*  debug
+*  behavior
+*  binder
+*  nextSelector
+*  navSelector
+*  contentSelector
+*  extraScrollPx
+*  itemSelector
+*  animate
+*  pathParse
+*  dataType
+*  appendCallback
+*  bufferPx
+*  errorCallback
+*  infid
+*  pixelsFromNavToBottom
+*  path
+*  prefill
+*  maxPage
