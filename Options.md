@@ -75,5 +75,10 @@ If a function is passed in to `path`, the function will take one argument, `curr
     function generatePageUrl(currentPageNumber) { return ("/path/to/resource/page/" + currentPageNumber + "/html"); }
 
 #####  prefill
+`boolean`
+
+Default: `false`
+
+When set to true, Infinite Scroll will continue to load more pages until the window is full enough to trigger the vertical scrollbar. If the window is resized to be large enough to hide the vertical scrollbar, Infinite Scroll will load more content until the window is full again.
 
 #####  maxPage
