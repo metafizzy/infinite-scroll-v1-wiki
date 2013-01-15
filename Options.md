@@ -1,65 +1,65 @@
 ##  loading
-#####  finished
-#####  finishedMsg
-#####  img
-#####  msg
-#####  msgText
-#####  selector
-#####  speed
-#####  start
+####  finished
+####  finishedMsg
+####  img
+####  msg
+####  msgText
+####  selector
+####  speed
+####  start
 
 ##  state
-#####  isDuringAjax
-#####  isInvalidPage
-#####  isDestroyed
-#####  isDone
-#####  isPaused
-#####  currPage
+####  isDuringAjax
+####  isInvalidPage
+####  isDestroyed
+####  isDone
+####  isPaused
+####  currPage
 
 ## Regular Options
-#####  debug
+####  debug
 `boolean`
 
 Default: `false`
 
 Displays debugging information related to the operations of the plugin.
 
-#####  behavior
+####  behavior
 
-#####  binder
+####  binder
 
-#####  <a id="nextSelector"></a>nextSelector
+####  <a id="nextSelector"></a>nextSelector
 
-#####  navSelector
+####  navSelector
 
-#####  contentSelector
+####  contentSelector
 
-#####  extraScrollPx
+####  extraScrollPx
 
-#####  itemSelector
+####  itemSelector
 
-#####  animate
+####  animate
 
-#####  pathParse
+####  pathParse
 
-#####  dataType
+####  dataType
 `string`
 
 Default: `"html"`
 
 Determines the expected return type of any AJAX calls made by the plugin. Possible values include `"html"` and `"json"`. The `"json"` option should be used in conjunction by setting the [appendCallback](#appendCallback) to false and using the [append callback](Callback) to generate your page structure from the returned JSON.
 
-#####  <a id="appendCallback"></a>appendCallback
+####  <a id="appendCallback"></a>appendCallback
 
-#####  bufferPx
+####  bufferPx
 
-#####  errorCallback
+####  errorCallback
 
-#####  infid
+####  infid
 
-#####  pixelsFromNavToBottom
+####  pixelsFromNavToBottom
 
-#####  path
+####  path
 `object (array)` or `function`
 
 Default: `undefined`
@@ -74,11 +74,11 @@ If a function is passed in to `path`, the function will take one argument, `curr
 
     function generatePageUrl(currentPageNumber) { return ("/path/to/resource/page/" + currentPageNumber + "/html"); }
 
-#####  prefill
+####  prefill
 `boolean`
 
 Default: `false`
 
 When set to true, Infinite Scroll will continue to load more pages until the window is full enough to trigger the vertical scrollbar. If the window is resized to be large enough to hide the vertical scrollbar, Infinite Scroll will load more content until the window is full again.
 
-#####  maxPage
+####  maxPage
