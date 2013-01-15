@@ -28,7 +28,7 @@ Displays debugging information related to the operations of the plugin.
 
 #####  binder
 
-#####  nextSelector
+#####  <a id="nextSelector"></a>nextSelector
 
 #####  navSelector
 
@@ -60,6 +60,19 @@ Determines the expected return type of any AJAX calls made by the plugin. Possib
 #####  pixelsFromNavToBottom
 
 #####  path
+`object (array)` or `function`
+
+Default: `undefined`
+
+When set to either a string or a function, this will override Infinite Scroll's default attempt to guess the format of the URL pulled from the `href` of the element found by the nextSelector [nextSelector](#nextSelector). 
+
+When an array is supplied, it should be broken down in a manner such that it will return a `string` representative of the URL to the next page when `.join(currentPageNumber)` is called on it.
+
+    ["/path/to/resource/page/", "/html"]
+
+If a function is passed in to `path`, the function will take one argument, `currentPageNumber`, which is a `number`. The function should return a URL as a `string` that will be used to fetch the next page.
+
+    function generatePageUrl(currentPageNumber) { return ("/path/to/resource/page/" + currentPageNumber + "/html"); }
 
 #####  prefill
 
