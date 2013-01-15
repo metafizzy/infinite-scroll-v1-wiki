@@ -64,7 +64,7 @@ Determines the expected return type of any AJAX calls made by the plugin. Possib
 
 Default: `undefined`
 
-When set to either a string or a function, this will override Infinite Scroll's default attempt to guess the format of the URL pulled from the `href` of the element found by the nextSelector [nextSelector](#nextSelector). 
+When set to either a string or a function, this will override Infinite Scroll's default attempt to guess the format of the URL pulled from the `href` of the element found by the [nextSelector](#nextSelector). 
 
 When an array is supplied, it should be broken down in a manner such that it will return a `string` representative of the URL to the next page when `.join(currentPageNumber)` is called on it.
 
