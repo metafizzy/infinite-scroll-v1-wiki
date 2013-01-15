@@ -1,0 +1,1 @@
+TODO: Document the public methods that can be called on an instance of Infinite Scroll
