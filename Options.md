@@ -59,7 +59,7 @@ Determines the expected return type of any AJAX calls made by the plugin. Possib
 
 ####  pixelsFromNavToBottom
 
-####  path
+####  <a id="path"></a>path
 `object` (array) or `function`
 
 Default: `undefined`
