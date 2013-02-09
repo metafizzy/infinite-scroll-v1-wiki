@@ -54,6 +54,11 @@ Determines the expected return type of any AJAX calls made by the plugin. Possib
 ####  bufferPx
 
 ####  errorCallback
+`function`
+
+Default: `function() { }`
+
+Function that is called at the end of Infinite-Scroll's execution. Takes in a string with the value `"done"` as an argument. This appears to be a vestigial option with no real use and may be removed in the future. It's use is not recommended.
 
 ####  infid
 
