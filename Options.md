@@ -55,7 +55,7 @@ Default: `true`
 
 Determines whether or not to animate scrolling after new elements have been appended to the DOM.
 
-####  <a id="#pathParse"></a>pathParse
+####  <a id="pathParse"></a>pathParse
 
 ####  <a id="dataType"></a>dataType
 `string`
