@@ -68,7 +68,7 @@ Determines whether or not to animate scrolling after new elements have been appe
 
 Default: `"html"`
 
-Determines the expected return type of any AJAX calls made by the plugin. Possible values include `"html"` and `"json"`. The `"json"` option should be used in conjunction by setting the [appendCallback](#appendCallback) to false and using the [append callback](Callback) to generate your page structure from the returned JSON.
+Determines the expected return type of any AJAX calls made by the plugin. Possible values include `"html"` and `"json"`. The `"json"` option should be used in conjunction by setting the [`appendCallback`](#appendCallback) to false and using the [append callback](Callback) to generate your page structure from the returned JSON.
 
 ####  <a id="appendCallback"></a>appendCallback
 
