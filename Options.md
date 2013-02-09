@@ -29,6 +29,11 @@ Displays debugging information related to the operations of the plugin.
 ####  binder
 
 ####  <a id="nextSelector"></a>nextSelector
+`string`
+
+Default: `"div.navigation a:first"`
+
+The `nextSelector` is used to pull the URL that is used to form all subsequent URLs that Infinite-Scroll uses to load more content. By default, Infinite-Scroll will attempt to parse out the URL pulled from the found element's `href` attribute. This URL can be decomposed by the user-supplied [`pathParse`](#pathParse) option. The URL will be ignored when the [`path`](#path) option is used.
 
 ####  navSelector
 
