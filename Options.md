@@ -1,5 +1,11 @@
 ##  loading
 ####  finished
+`function`
+
+Default: `undefined`
+
+The `finished` function is called after each AJAX call that loads new content, after the loading message is displayed. If the option is not overridden, or a falsy value is passed it, the default action will be to fade-out the loading message.
+
 ####  finishedMsg
 ####  img
 ####  msg
