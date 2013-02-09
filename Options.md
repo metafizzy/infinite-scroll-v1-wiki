@@ -37,6 +37,11 @@ Displays debugging information related to the operations of the plugin.
 ####  extraScrollPx
 
 ####  itemSelector
+`string`
+
+Default: `"div.post"`
+
+The `itemSelector` is used to find the HTML elements that are inserted into the page when the [`dataType`](#dataType) option is set to `"html"`.
 
 ####  animate
 `boolean`
@@ -47,7 +52,7 @@ Determines whether or not to animate scrolling after new elements have been appe
 
 ####  pathParse
 
-####  dataType
+####  <a id="dataType"></a>dataType
 `string`
 
 Default: `"html"`
