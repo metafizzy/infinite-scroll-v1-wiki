@@ -39,6 +39,11 @@ Displays debugging information related to the operations of the plugin.
 ####  itemSelector
 
 ####  animate
+`boolean`
+
+Default: `true`
+
+Determines whether or not to animate scrolling after new elements have been appended to the DOM.
 
 ####  pathParse
 
