@@ -7,6 +7,12 @@ Default: `undefined`
 The `finished` function is called after each AJAX call that loads new content, after the loading message is displayed. If the option is not overridden, or a falsy value is passed it, the default action will be to fade-out the loading message.
 
 ####  finishedMsg
+`string`
+
+Default: `"<em>Congratulations, you've reached the end of the internet.</em>"`
+
+The `finishedMsg` option is a `string` that can include HTML. This will be displayed when Infinite-Scroll encounters a HTTP status code indicating an error, or when no more elements are found by the [`itemSelector`](#itemSelector) and the [`dataType`](#dataType) is `"html"`.
+
 ####  img
 ####  msg
 ####  msgText
@@ -47,7 +53,7 @@ The `nextSelector` is used to pull the URL that is used to form all subsequent U
 
 ####  extraScrollPx
 
-####  itemSelector
+####  <a id="itemSelector"></a>itemSelector
 `string`
 
 Default: `"div.post"`
