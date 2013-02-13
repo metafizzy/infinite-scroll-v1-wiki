@@ -68,6 +68,26 @@ Default: `true`
 Determines whether or not to animate scrolling after new elements have been appended to the DOM.
 
 ####  <a id="pathParse"></a>pathParse
+`object` (array) or `function`
+
+Default: `undefined`
+
+The `pathParse` option is used to help Infinite-Scroll determine the structure of the URL found by the [`nextSelector`](#nextSelector) so that AJAX requests for more content are directed to the proper location.
+
+By default, Infinite-Scroll will run through attempts to guess at the structure of your URL and break it down into component parts, however this is not always possible given the vast amounts of different URL configurations that are possible for pagination.
+
+If you are confident that your URL structure will not change, it is possible to pass in an array of `string`s that will be concatenated with a call to `.join(currentPage)` to create a new URL. As an example, with a URL structure like `/path/to/resource/html?page=2&foo=bar`, you would write [`/path/to/resource/html?page=", "&foo=bar"]`. When a new URL is generated, the current page number will be inserted in between each element of the array.
+
+Now in some cases, you may have a more dynamic structure that needs to be parsed, and a function is the proper way to do this. Let's say you have some additional GET parameters and a she-bang in your URL like `/path/to/resource?page=2&foo=bar&dynamic=CA735B#!random-hashbang`. You don't know what it might say, but you know it might be there. In that case, you're going to need to break down the URL dynamically to account for these situations:
+
+```
+pathParse: function (path, currentPage) {
+  // Parse out the URL into chunks here
+  
+  // `chunkedUrl` should be `["/path/to/resource?page=", "&foo=bar&dynamic=CA735B#!random-hashbang"]`
+  return chunkedUrl;
+}
+```
 
 ####  <a id="dataType"></a>dataType
 `string`
