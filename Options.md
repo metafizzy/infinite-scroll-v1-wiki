@@ -100,7 +100,7 @@ Determines the expected return type of any AJAX calls made by the plugin. Possib
 
 ####  bufferPx
 
-####  errorCallback
+####  <a id="errorCallback"></a>errorCallback
 `function`
 
 Default: `function() { }`
