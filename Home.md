@@ -1,1 +1,1 @@
-Welcome to the infinite-scroll wiki!
+(View Wiki Table of Contents](https://github.com/paulirish/infinite-scroll/wiki/_pages)
