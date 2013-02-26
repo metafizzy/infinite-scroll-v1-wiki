@@ -1,1 +1,1 @@
-(View Wiki Table of Contents](https://github.com/paulirish/infinite-scroll/wiki/_pages)
+## [View Wiki Table of Contents](https://github.com/paulirish/infinite-scroll/wiki/_pages)
