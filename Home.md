@@ -36,3 +36,8 @@ User is browsing paged content.
 
 ### Examples in the Wild
 * [Humanized Reader](http://www.humanized.com/reader/)
+* [SocialThing](http://socialthing.com/)
+* [Live.com Image Search](http://search.live.com/images/results.aspx?q=scrollbar&go=&form=QBIR)
+* [Soup tumblelogs](http://www.soup.io/)
+* [Google Reader](http://www.google.com/reader/), [Yahoo Mail](http://mail.yahoo.com/) use the same technique but within a container.
+* [Dazed Digital](http://www.dazeddigital.com/)
