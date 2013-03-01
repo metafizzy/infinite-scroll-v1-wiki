@@ -9,7 +9,8 @@ User is browsing paged content.
 ### Use When
 * Retaining the user is important and clicking “Next Page” is a usability barrier.
 * The full content available is too large to show on initial load.
-* The content is available in paged chunks: search results, blog posts, product listings portfolio features.
+* The content is available in paged chunks: search results, blog posts, product listings portfolio features.  
+![InfiniteScroll Pattern](http://www.infinite-scroll.com/wp-content/uploads/2008/07/infinite-scroll-pattern.gif)
 
 ### Advantages
 * Users are retained on the site far better.
