@@ -127,3 +127,61 @@ $('
 });
 ```
 So it basically leverages that load() method at its core. It’s basically scraping your existing page structure, which means you don’t need to code any custom backend stuff to enable this functionality! Booyah, right?
+
+
+##WordPress Plugin Installation
+
+* [Download the plugin](downloads.wordpress.org/plugin/infinite-scroll.zip).
+* Install it to your /wp-content/plugins/ directory
+* Activate the plugin in your WordPress Admin UI.
+* Visit the Settings / Infinite Scroll page to set up the css selectors.
+* The plugin will now work for a logged in Admin, but will be disabled for all other users; you can change this.
+
+####CSS Selector Setup
+
+You need configure the plugin with CSS selectors that match your theme.
+
+![selector](http://www.infinite-scroll.com/wp-content/uploads/2008/06/selectors2.jpg)
+
+ *  Content CSS Selector  
+The DIV that wraps around all posts. New posts will be inserted at the bottom of this DIV. 
+ *  Post CSS Selector      
+The selector that selects all posts on a page. Each post must be surrounded by a single DIV. 
+ *  Navigation links CSS Selector      
+This DIV contains the Next Posts and Previous Posts link. 
+ *  Previous Posts CSS Selector      
+This A tag is what points to the 2nd page of posts. 
+
+####Troubleshooting
+
+* Your posts need to be wrapped in divs all next to each other.
+* You need a link on your page to the next page of posts.
+
+####FAQ
+
+Can I change the number of posts loaded?  
+    Yup. But that’s a WordPress thing. Go to Settings / Reading  
+Is it SEO-Friendly?  
+    Yes all enhancements are made via javascript only, so search spiders see no difference.  
+Is it accessible?  
+    Things won’t change for screen-readers. This technique degrades gracefully.  
+Why doesn’t it work on ____ page?  
+    Currently, the plugin is disabled for everything but the main page, but I’ll work on enabling it for Archives, Categories, and Tags.  
+Does it still keep going, even at the end of the blog?  
+    Infinite scroll is configured to die when it hits a 404 Not Found status code, so when it goes through all your archives it should hit a /page/43/ (or something) that doesn’t exist, then show a message “Congrats, you’ve reached the end of the internet.” Some wordpress themes don’t report not found pages with a 404. Try a different theme or contacting the theme author.  
+Do I need to edit my theme to make this work?  
+    Probably not, nope.  
+Will this do form posts for get new data?  
+    Nope?  
+You mean it just works?  
+    Yup.  
+Really?  
+    I hope so. But due to the infinitudes of wordpress installations, each case is different. Different themes and other plugins may break infinite scroll’s functionality.  
+
+####Customization
+
+This information will probably help styling.
+
+* `<div id="infscr-page-2" class="infscr-pages">` will contain the page 2 content, etc
+* `<div id="infscr-loading">` is the loading div.
+
