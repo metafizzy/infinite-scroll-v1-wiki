@@ -1,3 +1,18 @@
+##Infinite Scroll in Greasemonkey – Autopagerize
+
+[![Check out the greasemonkey script](http://3.bp.blogspot.com/_FMU0brKUGn0/S3iMZTdr31I/AAAAAAAAAe0/C_X5wjCvf_k/s724/greasespot-header.png)](http://userscripts.org/scripts/show/8551)
+
+[Autopagerize](http://userscripts.org/scripts/show/8551) adds infinite scroll functionality to hundreds of websites, including Google, Yahoo, Blogger, and Twitter. It was written by Japanese hacker [swdyh](http://d.hatena.ne.jp/swdyh/) with inspiration and ideas from [ma.la](http://la.ma.la/blog/). I strongly recommend you check it out. Naturally you’ll need the Firefox extension [Greasemonkey](http://www.greasespot.net/) in order for it to work.
+
+If you’re not a greasemonkey type of person, you can install the [AutoPager firefox extension](http://www.greasespot.net/).
+
+If you’re a Safari user, install [Greasekit](http://8-p.info/greasekit/) and then use [oAutoPagerize](http://os0x.hatenablog.com/entry/20071202/oautopagerize).
+
+If you’re a Google Chrome user, install [Greasemetal](http://greasemetal.31tools.com/) and then use [oAutoPagerize](http://os0x.hatenablog.com/entry/20071202/oautopagerize).
+
+If you’re an IE user, please get yourself a better browser and I’ll think about forgiving you..
+
+
 ##  loading
 ####  finished
 `function`
