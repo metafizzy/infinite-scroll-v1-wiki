@@ -1,3 +1,10 @@
+##Who made this?
+
+![avatarPaul](http://paulirish.com/avatar.jpg)[Paul Irish](http://paulirish.com/) of [Aurgasm](http://aurgasm.us/) wrote the original javascript and now maintains the WordPress plugin and jQuery plugin.
+
+![icon](http://farm1.static.flickr.com/216/buddyicons/45844873@N00.jpg?1177533419#45844873@N00)dirkhaim of [tinyways](http://tinyways.com/) took Paul’s original code and built it out into a full fledged WordPress plugin with configurable options.
+
+
 ##The History of Infinite Scroll
 
 Here is the history as far as I’ve seen it:
@@ -12,6 +19,7 @@ Here is the history as far as I’ve seen it:
 * 2008 June 29 – infinite-scroll.com debuts with initial release of wordpress plugin
 
 (*) Google Reader uses the same preloading LiveGrid technology. Anyone know when this debuted?
+
 
 ##Changelog
 
