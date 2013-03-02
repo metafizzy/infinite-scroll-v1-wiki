@@ -8,6 +8,7 @@ For the plugins below, the following code goes in the Javascript Callback option
 
 ####Lightbox JS 1.0:
 No compatibility code available.
+
 ####Lightbox JS 2.0:
 
     myLightbox.updateImageList();
@@ -22,6 +23,7 @@ No compatibility code available.
 
 ####1 Pixel Out Audio Player:
 Compatible! Version 2.0, too.
+
 ####Yahoo Media Player:
 
     YAHOO.MediaPlayer.addTracks( this );
@@ -32,13 +34,14 @@ Compatible! Version 2.0, too.
 
 ####WP-SimpleViewer:
 Not compatible.
+
 ####Flare Smith Feed Flare:
 Not compatible. (relies on inline script tags)
 
-ShareThis plugin:
+####ShareThis plugin:
 Not compatible. (relies on inline script tags)
 
-jQuery HoverIntent:
+####jQuery HoverIntent:
 
     $('a.things',this).hoverIntent(......
 
@@ -46,13 +49,13 @@ jQuery HoverIntent:
 
     SyntaxHighlighter.highlight(undefined,$('pre',this).get());
 
-Smooth Scroll Links [SSL]
+####Smooth Scroll Links [SSL]
 ```
 $('a',this).each(function(){
  ss.addEvent(this,'click',ss.smoothScroll);
 });
 ```
-To refer to the most recently added content:
+####To refer to the most recently added content:
 ```
     this;     // as of ver 1.1, the keyword this is the content wrapper (typically a DIV)
     $(this);  // the jQuery object including this
