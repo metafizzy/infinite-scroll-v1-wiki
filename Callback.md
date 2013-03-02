@@ -6,36 +6,36 @@ Many plugins run after the page has loaded and process existing content. Since I
 
 For the plugins below, the following code goes in the Javascript Callback option.
 
-####Lightbox JS 1.0:
+####[Lightbox JS 1.0:](http://lokeshdhakar.com/projects/lightbox/)
 No compatibility code available.
 
-####Lightbox JS 2.0:
+####[Lightbox JS 2.0:](http://lokeshdhakar.com/projects/lightbox2/)
 
     myLightbox.updateImageList();
 
-####Shutter Reloaded:
+####[Shutter Reloaded:](http://www.laptoptips.ca/projects/wp-shutter-reloaded/)
 
     shutterReloaded.Init('sh');
 
-####Thickbox:
+####[Thickbox:](http://jquery.com/demo/thickbox/)
 
     tb_init( $('a.thickbox, area.thickbox, input.thickbox',this) );
 
-####1 Pixel Out Audio Player:
+####[1 Pixel Out Audio Player:](http://www.1pixelout.net/code/audio-player-wordpress-plugin/)
 Compatible! Version 2.0, too.
 
-####Yahoo Media Player:
+####[Yahoo Media Player:](http://webplayer.yahoo.com/)
 
     YAHOO.MediaPlayer.addTracks( this );
 
-####HighslideJS:
+####[HighslideJS:](http://highslide.com/)
 
     $('a.highslide',this).click(function() {  return hs.expand(this);})
 
-####WP-SimpleViewer:
+####[WP-SimpleViewer:](http://www.simpleviewer.net/simpleviewer/support/wp-simpleviewer/)
 Not compatible.
 
-####Flare Smith Feed Flare:
+####[Flare Smith Feed Flare:](http://xentek.net/code/wordpress/plugins/flaresmith/)
 Not compatible. (relies on inline script tags)
 
 ####ShareThis plugin:
@@ -45,7 +45,7 @@ Not compatible. (relies on inline script tags)
 
     $('a.things',this).hoverIntent(......
 
-####SyntaxHighlighter Evolved:
+####[SyntaxHighlighter Evolved:](http://wordpress.org/extend/plugins/syntaxhighlighter/)
 
     SyntaxHighlighter.highlight(undefined,$('pre',this).get());
 
