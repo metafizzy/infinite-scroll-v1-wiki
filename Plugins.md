@@ -97,7 +97,7 @@ $('#content').infinitescroll({
      //                   all the new elements that were found are passed in as an array
  
 });
-````
+```
 ####Custom trigger, non-automatic. Twitter-style
 
 In 1.4 you can trigger the loading of the next page of content at will. You’ll first unbind the default behavior. And then trigger the next pull whenever you like..
