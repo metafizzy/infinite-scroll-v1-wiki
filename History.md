@@ -1,6 +1,7 @@
 ##Who made this?
 
-![avatarPaul](http://paulirish.com/avatar.jpg)[Paul Irish](http://paulirish.com/) of [Aurgasm](http://aurgasm.us/) wrote the original javascript and now maintains the WordPress plugin and jQuery plugin.
+![avatarPaul](http://aurgasm.us/wp/uploads/aboutimg-paul.jpg)
+[Paul Irish](http://paulirish.com/) of [Aurgasm](http://aurgasm.us/) wrote the original javascript and now maintains the WordPress plugin and jQuery plugin.
 
 ![icon](http://farm1.static.flickr.com/216/buddyicons/45844873@N00.jpg?1177533419#45844873@N00)dirkhaim of [tinyways](http://tinyways.com/) took Paul’s original code and built it out into a full fledged WordPress plugin with configurable options.
 
