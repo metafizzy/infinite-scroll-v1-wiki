@@ -159,23 +159,23 @@ This A tag is what points to the 2nd page of posts.
 
 ####FAQ
 
-Can I change the number of posts loaded?  
+-Can I change the number of posts loaded?  
     Yup. But that’s a WordPress thing. Go to Settings / Reading  
-Is it SEO-Friendly?  
+-Is it SEO-Friendly?  
     Yes all enhancements are made via javascript only, so search spiders see no difference.  
-Is it accessible?  
+-Is it accessible?  
     Things won’t change for screen-readers. This technique degrades gracefully.  
-Why doesn’t it work on ____ page?  
+-Why doesn’t it work on ____ page?  
     Currently, the plugin is disabled for everything but the main page, but I’ll work on enabling it for Archives, Categories, and Tags.  
-Does it still keep going, even at the end of the blog?  
+-Does it still keep going, even at the end of the blog?  
     Infinite scroll is configured to die when it hits a 404 Not Found status code, so when it goes through all your archives it should hit a /page/43/ (or something) that doesn’t exist, then show a message “Congrats, you’ve reached the end of the internet.” Some wordpress themes don’t report not found pages with a 404. Try a different theme or contacting the theme author.  
-Do I need to edit my theme to make this work?  
+-Do I need to edit my theme to make this work?  
     Probably not, nope.  
-Will this do form posts for get new data?  
+-Will this do form posts for get new data?  
     Nope?  
-You mean it just works?  
+-You mean it just works?  
     Yup.  
-Really?  
+-Really?  
     I hope so. But due to the infinitudes of wordpress installations, each case is different. Different themes and other plugins may break infinite scroll’s functionality.  
 
 ####Customization
