@@ -51,7 +51,12 @@ The `nextSelector` is used to pull the URL that is used to form all subsequent U
 
 ####  contentSelector
 
-####  extraScrollPx
+####  <a id="extraScrollPx"></a>extraScrollPx
+`integer`
+
+Default: `150`
+
+The `extraScrollPx` option is used only when the [`animate`](#animate) option is set to `true`. It determines how far infinite-scroll will try to scroll down the page when next posts are appended to the DOM. 
 
 ####  <a id="itemSelector"></a>itemSelector
 `string`
@@ -60,7 +65,7 @@ Default: `"div.post"`
 
 The `itemSelector` is used to find the HTML elements that are inserted into the page when the [`dataType`](#dataType) option is set to `"html"`.
 
-####  animate
+####  <a id="animate"></a>animate
 `boolean`
 
 Default: `true`
