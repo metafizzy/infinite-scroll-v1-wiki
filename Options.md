@@ -17,7 +17,7 @@ The `finishedMsg` option is a `string` that can include HTML. This will be displ
 ####  msg
 ####  msgText
 `string`
-Default: `"<em>Loading the next set of posts.</em>"`
+Default: `"<em>Loading the next set of posts...</em>"`
 
 The `msgText` option is a `string` that can include HTML. This will be displayed next to `img` when new content is loading.
 
