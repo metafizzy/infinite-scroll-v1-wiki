@@ -36,7 +36,6 @@ User is browsing paged content.
 * Infinite scroll should be implemented as progressive enhancement. Typical navigation/pagination should be present for users with JavaScript disabled. JavaScript-enabled users, however, will experience the more rich reading functionality.
 
 ### Examples in the Wild
-* [Humanized Reader](http://www.humanized.com/reader/)
 * [SocialThing](http://socialthing.com/)
 * [Live.com Image Search](http://search.live.com/images/results.aspx?q=scrollbar&go=&form=QBIR)
 * [Soup tumblelogs](http://www.soup.io/)
