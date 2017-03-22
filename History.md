@@ -1,4 +1,4 @@
-##Who made this?
+## Who made this?
 
 ![avatarPaul](http://aurgasm.us/wp/uploads/aboutimg-paul.jpg)
 
@@ -9,7 +9,7 @@
 Dirkhaim of [tinyways](http://tinyways.com/) took Paul’s original code and built it out into a full fledged WordPress plugin with configurable options.
 
 
-##The History of Infinite Scroll
+## The History of Infinite Scroll
 
 Here is the history as far as I’ve seen it:
 
@@ -25,7 +25,7 @@ Here is the history as far as I’ve seen it:
 (*) Google Reader uses the same preloading LiveGrid technology. Anyone know when this debuted?
 
 
-##Changelog
+## Changelog
 
 * 2008 June 29 – 1.0 release.
 * 2008 September 25 – 1.1 release.
